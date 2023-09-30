@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32002.185
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{BD8B76F3-98C8-44F2-AE57-90D7AC10E820}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommuteCalculator", "Src\CommuteCalculator\CommuteCalculator.csproj", "{4AED37A6-03A0-40E4-A564-19E1B949076D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Src\Core\Core.csproj", "{B2D3339D-B9D6-4139-800F-C8AD95118842}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Src\Infrastructure\Infrastructure.csproj", "{2EDCE2F7-1BC5-4B5E-B29D-741EA47629ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{7E51E4A9-0A81-44CE-A6E5-ECEEE1A30A7B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.Tests", "Tests\CommuteCalculator.Tests\Core.Tests\Core.Tests.csproj", "{B5B4AD47-5A9D-4E87-B6FC-4B8456BA5967}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4AED37A6-03A0-40E4-A564-19E1B949076D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AED37A6-03A0-40E4-A564-19E1B949076D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AED37A6-03A0-40E4-A564-19E1B949076D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AED37A6-03A0-40E4-A564-19E1B949076D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2D3339D-B9D6-4139-800F-C8AD95118842}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2D3339D-B9D6-4139-800F-C8AD95118842}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2D3339D-B9D6-4139-800F-C8AD95118842}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2D3339D-B9D6-4139-800F-C8AD95118842}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EDCE2F7-1BC5-4B5E-B29D-741EA47629ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EDCE2F7-1BC5-4B5E-B29D-741EA47629ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EDCE2F7-1BC5-4B5E-B29D-741EA47629ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EDCE2F7-1BC5-4B5E-B29D-741EA47629ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5B4AD47-5A9D-4E87-B6FC-4B8456BA5967}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5B4AD47-5A9D-4E87-B6FC-4B8456BA5967}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5B4AD47-5A9D-4E87-B6FC-4B8456BA5967}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5B4AD47-5A9D-4E87-B6FC-4B8456BA5967}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4AED37A6-03A0-40E4-A564-19E1B949076D} = {BD8B76F3-98C8-44F2-AE57-90D7AC10E820}
+		{B2D3339D-B9D6-4139-800F-C8AD95118842} = {BD8B76F3-98C8-44F2-AE57-90D7AC10E820}
+		{2EDCE2F7-1BC5-4B5E-B29D-741EA47629ED} = {BD8B76F3-98C8-44F2-AE57-90D7AC10E820}
+		{B5B4AD47-5A9D-4E87-B6FC-4B8456BA5967} = {7E51E4A9-0A81-44CE-A6E5-ECEEE1A30A7B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AAB6E655-2744-4A0D-9061-55E9B980EE2B}
+	EndGlobalSection
+EndGlobal
